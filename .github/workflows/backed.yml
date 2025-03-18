@@ -23,4 +23,4 @@ jobs:
         run: docker push balapotanna/my_project_demo:2.0.0
 
       - name: Logout from Docker
-        run: docker logou
+        run: docker logout
