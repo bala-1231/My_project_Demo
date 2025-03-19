@@ -1,9 +1,6 @@
 name: Deploy Node.js App with Docker
-##on:
-  ##push:
-    ##branches:
-      ##- main
- on:
+
+on:
   workflow_dispatch:
     inputs:
       title:
@@ -11,7 +8,7 @@ name: Deploy Node.js App with Docker
         required: false
       environment:
         type: choice
-        description: 'Environment'
+        description: "Environment"
         required: true
         options:
           - demo
